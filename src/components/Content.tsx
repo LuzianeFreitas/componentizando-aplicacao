@@ -1,6 +1,8 @@
 import { MovieCard } from "./MovieCard";
 import { MovieProps, GenreResponseProps } from '../App';
 
+import '../styles/content.scss';
+
 interface ContentProps {
   movies: MovieProps[];
   selectedGenre: GenreResponseProps;
